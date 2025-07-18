@@ -1,0 +1,56 @@
+### CLUB FAIR SETUP START ###
+-----------------------------------------------------------------
+Project name: Club Fair Preparation
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End  
+-----------------------------------------------------------------
+0         Set up tables                                0      2  
+1         Hang banners                                 2      3  
+2         Power up LED displays                        3      4  
+3         Final approval                               4      5  
+4         Decorate with posters and lights             3      4  
+5         Launch Announcement                          5      6  
+-----------------------------------------------------------------
+Project will be completed in 6 days.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Project name: Booth Construction and Inspection
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End  
+-----------------------------------------------------------------
+0         Collect Materials and Supplies               0      1  
+1         Booth Design Finalization                    1      7
+2         Prototype Booth Setup                        7      19
+3         Booth Fabrication                            19     31
+4         Decoration and Branding                      31     37
+5         Inspection and Safety Check                  37     40
+6         Lighting and Audio Setup                     37     41
+7         Final Deployment                             41     45
+-----------------------------------------------------------------
+Project will be completed in 45 days.
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+Project name: Club Activity Pavilion
+-----------------------------------------------------------------
+Task ID   Description                                  Start  End
+-----------------------------------------------------------------
+0         Conceptual Event Planning                    0      2
+1         Stage Construction                           2      22
+2         Performance Rehearsals                       22     30
+3         Lighting and Sound Testing                   30     33
+4         Final Dress Rehearsal                        33     35
+5         Live Launch Event                            35     45
+-----------------------------------------------------------------
+Project will be completed in 45 days.
+-----------------------------------------------------------------
+### CLUB FAIR SETUP END ###
+### CAMPUS NAVIGATOR START ###
+The fastest route takes 8 minute(s).
+Directions
+----------
+1. Walk from "Starting Point" to "Main Avenue Path Station 1" for 1.20 minutes.
+2. Ride the cart from "Main Avenue Path Station 1" to "Main Avenue Path Station 2" for 0.75 minutes.
+3. Walk from "Main Avenue Path Station 2" to "Library Loop Station 2" for 2.40 minutes.
+4. Ride the cart from "Library Loop Station 2" to "Library Loop Station 3" for 0.75 minutes.
+5. Walk from "Library Loop Station 3" to "Final Destination" for 2.40 minutes.
+### CAMPUS NAVIGATOR END ###

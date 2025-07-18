@@ -1,0 +1,8 @@
+num_cart_lines = 2
+starting_point = (0, 0)
+destination_point = (10000, 1000)
+average_cart_speed = 400.00
+cart_line_name = "Main Avenue Path"
+cart_line_stations = (0, 200) (5000, 200) (7000, 200)
+cart_line_name = "Library Loop"
+cart_line_stations = (2000, 600) (5000, 600) (10000, 600)

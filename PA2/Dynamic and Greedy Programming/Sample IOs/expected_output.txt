@@ -1,0 +1,8 @@
+##Initiate Operation Safe-lock##
+Maximum scrolls acquired: 50
+For the safe set of :[[5, 10], [5, 15], [10, 50], [10, 25], [15, 45]]
+##Operation Safe-lock Completed##
+##Initiate Operation Artifact##
+Minimum spaceships required: 3
+For the artifact set of :[20, 90, 80, 10, 100]
+##Operation Artifact Completed##

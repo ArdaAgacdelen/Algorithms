@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Projects>
+    <Project>
+        <Name>Club Fair Preparation</Name>
+        <Tasks>
+            <Task>
+                <TaskID>0</TaskID>
+                <Description>Set up tables</Description>
+                <Duration>2</Duration>
+                <Dependencies />
+            </Task>
+            <Task>
+                <TaskID>1</TaskID>
+                <Description>Hang banners</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>2</TaskID>
+                <Description>Power up LED displays</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>3</TaskID>
+                <Description>Final approval</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>2</DependsOnTaskID>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>4</TaskID>
+                <Description>Decorate with posters and lights</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>5</TaskID>
+                <Description>Launch Announcement</Description>
+                <Duration>1</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+        </Tasks>
+    </Project>
+
+    <Project>
+        <Name>Booth Construction and Inspection</Name>
+        <Tasks>
+            <Task>
+                <TaskID>0</TaskID>
+                <Description>Collect Materials and Supplies</Description>
+                <Duration>1</Duration>
+                <Dependencies />
+            </Task>
+            <Task>
+                <TaskID>1</TaskID>
+                <Description>Booth Design Finalization</Description>
+                <Duration>6</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>2</TaskID>
+                <Description>Prototype Booth Setup</Description>
+                <Duration>12</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>3</TaskID>
+                <Description>Booth Fabrication</Description>
+                <Duration>12</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>2</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>4</TaskID>
+                <Description>Decoration and Branding</Description>
+                <Duration>6</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>5</TaskID>
+                <Description>Inspection and Safety Check</Description>
+                <Duration>3</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>6</TaskID>
+                <Description>Lighting and Audio Setup</Description>
+                <Duration>4</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>7</TaskID>
+                <Description>Final Deployment</Description>
+                <Duration>4</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>6</DependsOnTaskID>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+        </Tasks>
+    </Project>
+
+    <Project>
+        <Name>Club Activity Pavilion</Name>
+        <Tasks>
+            <Task>
+                <TaskID>0</TaskID>
+                <Description>Conceptual Event Planning</Description>
+                <Duration>2</Duration>
+                <Dependencies />
+            </Task>
+            <Task>
+                <TaskID>1</TaskID>
+                <Description>Stage Construction</Description>
+                <Duration>20</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>2</TaskID>
+                <Description>Performance Rehearsals</Description>
+                <Duration>8</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>3</TaskID>
+                <Description>Lighting and Sound Testing</Description>
+                <Duration>3</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>0</DependsOnTaskID>
+                    <DependsOnTaskID>2</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>4</TaskID>
+                <Description>Final Dress Rehearsal</Description>
+                <Duration>2</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>1</DependsOnTaskID>
+                    <DependsOnTaskID>3</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+            <Task>
+                <TaskID>5</TaskID>
+                <Description>Live Launch Event</Description>
+                <Duration>10</Duration>
+                <Dependencies>
+                    <DependsOnTaskID>4</DependsOnTaskID>
+                </Dependencies>
+            </Task>
+        </Tasks>
+    </Project>
+</Projects>

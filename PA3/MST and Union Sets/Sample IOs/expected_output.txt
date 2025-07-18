@@ -1,0 +1,14 @@
+##Start Reading Flora Genomes##
+Number of Genome Clusters: 2
+For the Genomes: [[G103, G102, G104], [G202, G201]]
+##Reading Flora Genomes Completed##
+##Start Evaluating Possible Evolutions##
+Number of Possible Evolutions: 2
+Number of Certified Evolution: 1
+Evolution Factor for Each Evolution Pair: [9.5, -1.0]
+##Evaluated Possible Evolutions##
+##Start Evaluating Possible Adaptations##
+Number of Possible Adaptations: 2
+Number of Certified Adaptations: 1
+Adaptation Factor for Each Adaptation Pair: [-1, 7]
+##Evaluated Possible Adaptations##

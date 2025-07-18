@@ -1,0 +1,8 @@
+The fastest route takes 20 minute(s).
+Directions
+----------
+1. Walk from "Starting Point" to "Neyveli (TS) Station 2" for 4.19 minutes.
+2. Ride the cart from "Neyveli (TS) Station 2" to "Neyveli (TS) Station 1" for 2.47 minutes.
+3. Walk from "Neyveli (TS) Station 1" to "Lunawada Station 4" for 1.21 minutes.
+4. Ride the cart from "Lunawada Station 4" to "Lunawada Station 3" for 0.52 minutes.
+5. Walk from "Lunawada Station 3" to "Final Destination" for 11.61 minutes.
